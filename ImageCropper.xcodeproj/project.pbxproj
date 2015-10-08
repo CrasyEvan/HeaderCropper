@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1856A88D19A715A500D0D698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1856A88C19A715A500D0D698 /* Foundation.framework */; };
+		1856A88F19A715A500D0D698 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1856A88E19A715A500D0D698 /* CoreGraphics.framework */; };
+		1856A89119A715A500D0D698 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1856A89019A715A500D0D698 /* UIKit.framework */; };
+		1856A89719A715A500D0D698 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1856A89519A715A500D0D698 /* InfoPlist.strings */; };
+		1856A89919A715A500D0D698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856A89819A715A500D0D698 /* main.m */; };
+		1856A89D19A715A500D0D698 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856A89C19A715A500D0D698 /* SMAppDelegate.m */; };
+		1856A8A019A715A500D0D698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1856A89E19A715A500D0D698 /* Main.storyboard */; };
+		1856A8A319A715A500D0D698 /* SMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856A8A219A715A500D0D698 /* SMViewController.m */; };
+		1856A8A519A715A500D0D698 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1856A8A419A715A500D0D698 /* Images.xcassets */; };
+		1856A8AC19A715A500D0D698 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1856A8AB19A715A500D0D698 /* XCTest.framework */; };
+		1856A8AD19A715A500D0D698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1856A88C19A715A500D0D698 /* Foundation.framework */; };
+		1856A8AE19A715A500D0D698 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1856A89019A715A500D0D698 /* UIKit.framework */; };
+		1856A8B619A715A500D0D698 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1856A8B419A715A500D0D698 /* InfoPlist.strings */; };
+		1856A8B819A715A500D0D698 /* ImageCropperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856A8B719A715A500D0D698 /* ImageCropperTests.m */; };
+		1856A8C219A715D500D0D698 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1856A8C119A715D500D0D698 /* QuartzCore.framework */; };
+		1856A8CC19A7160800D0D698 /* corner.png in Resources */ = {isa = PBXBuildFile; fileRef = 1856A8C819A7160800D0D698 /* corner.png */; };
+		1856A8CD19A7160800D0D698 /* sample1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1856A8C919A7160800D0D698 /* sample1.jpg */; };
+		1856A8D019A7163B00D0D698 /* SMImageCropperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856A8CF19A7163B00D0D698 /* SMImageCropperView.m */; };
+		1856A8D319A7166E00D0D698 /* SMCropViewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856A8D219A7166E00D0D698 /* SMCropViewLayer.m */; };
+		1856A8D619A7188000D0D698 /* SMImageCroperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856A8D519A7188000D0D698 /* SMImageCroperViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1856A8AF19A715A500D0D698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1856A88119A715A500D0D698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1856A88819A715A500D0D698;
+			remoteInfo = ImageCropper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1856A88919A715A500D0D698 /* ImageCropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1856A88C19A715A500D0D698 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1856A88E19A715A500D0D698 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1856A89019A715A500D0D698 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1856A89419A715A500D0D698 /* ImageCropper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageCropper-Info.plist"; sourceTree = "<group>"; };
+		1856A89619A715A500D0D698 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1856A89819A715A500D0D698 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1856A89A19A715A500D0D698 /* ImageCropper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageCropper-Prefix.pch"; sourceTree = "<group>"; };
+		1856A89B19A715A500D0D698 /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		1856A89C19A715A500D0D698 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		1856A89F19A715A500D0D698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1856A8A119A715A500D0D698 /* SMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMViewController.h; sourceTree = "<group>"; };
+		1856A8A219A715A500D0D698 /* SMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMViewController.m; sourceTree = "<group>"; };
+		1856A8A419A715A500D0D698 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1856A8AA19A715A500D0D698 /* ImageCropperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCropperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1856A8AB19A715A500D0D698 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1856A8B319A715A500D0D698 /* ImageCropperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageCropperTests-Info.plist"; sourceTree = "<group>"; };
+		1856A8B519A715A500D0D698 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1856A8B719A715A500D0D698 /* ImageCropperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCropperTests.m; sourceTree = "<group>"; };
+		1856A8C119A715D500D0D698 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1856A8C819A7160800D0D698 /* corner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corner.png; sourceTree = "<group>"; };
+		1856A8C919A7160800D0D698 /* sample1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample1.jpg; sourceTree = "<group>"; };
+		1856A8CE19A7163B00D0D698 /* SMImageCropperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMImageCropperView.h; sourceTree = "<group>"; };
+		1856A8CF19A7163B00D0D698 /* SMImageCropperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMImageCropperView.m; sourceTree = "<group>"; };
+		1856A8D119A7166E00D0D698 /* SMCropViewLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCropViewLayer.h; sourceTree = "<group>"; };
+		1856A8D219A7166E00D0D698 /* SMCropViewLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCropViewLayer.m; sourceTree = "<group>"; };
+		1856A8D419A7188000D0D698 /* SMImageCroperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMImageCroperViewController.h; sourceTree = "<group>"; };
+		1856A8D519A7188000D0D698 /* SMImageCroperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMImageCroperViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1856A88619A715A500D0D698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1856A8C219A715D500D0D698 /* QuartzCore.framework in Frameworks */,
+				1856A88F19A715A500D0D698 /* CoreGraphics.framework in Frameworks */,
+				1856A89119A715A500D0D698 /* UIKit.framework in Frameworks */,
+				1856A88D19A715A500D0D698 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1856A8A719A715A500D0D698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1856A8AC19A715A500D0D698 /* XCTest.framework in Frameworks */,
+				1856A8AE19A715A500D0D698 /* UIKit.framework in Frameworks */,
+				1856A8AD19A715A500D0D698 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1856A88019A715A500D0D698 = {
+			isa = PBXGroup;
+			children = (
+				1856A89219A715A500D0D698 /* ImageCropper */,
+				1856A8B119A715A500D0D698 /* ImageCropperTests */,
+				1856A88B19A715A500D0D698 /* Frameworks */,
+				1856A88A19A715A500D0D698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1856A88A19A715A500D0D698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1856A88919A715A500D0D698 /* ImageCropper.app */,
+				1856A8AA19A715A500D0D698 /* ImageCropperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1856A88B19A715A500D0D698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1856A8C119A715D500D0D698 /* QuartzCore.framework */,
+				1856A88C19A715A500D0D698 /* Foundation.framework */,
+				1856A88E19A715A500D0D698 /* CoreGraphics.framework */,
+				1856A89019A715A500D0D698 /* UIKit.framework */,
+				1856A8AB19A715A500D0D698 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1856A89219A715A500D0D698 /* ImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				1856A89B19A715A500D0D698 /* SMAppDelegate.h */,
+				1856A89C19A715A500D0D698 /* SMAppDelegate.m */,
+				1856A89E19A715A500D0D698 /* Main.storyboard */,
+				1856A8A119A715A500D0D698 /* SMViewController.h */,
+				1856A8A219A715A500D0D698 /* SMViewController.m */,
+				1856A8D419A7188000D0D698 /* SMImageCroperViewController.h */,
+				1856A8D519A7188000D0D698 /* SMImageCroperViewController.m */,
+				1856A8C319A715F000D0D698 /* SMImageCropper */,
+				1856A89319A715A500D0D698 /* Supporting Files */,
+			);
+			path = ImageCropper;
+			sourceTree = "<group>";
+		};
+		1856A89319A715A500D0D698 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1856A8A419A715A500D0D698 /* Images.xcassets */,
+				1856A89419A715A500D0D698 /* ImageCropper-Info.plist */,
+				1856A89519A715A500D0D698 /* InfoPlist.strings */,
+				1856A89819A715A500D0D698 /* main.m */,
+				1856A89A19A715A500D0D698 /* ImageCropper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1856A8B119A715A500D0D698 /* ImageCropperTests */ = {
+			isa = PBXGroup;
+			children = (
+				1856A8B719A715A500D0D698 /* ImageCropperTests.m */,
+				1856A8B219A715A500D0D698 /* Supporting Files */,
+			);
+			path = ImageCropperTests;
+			sourceTree = "<group>";
+		};
+		1856A8B219A715A500D0D698 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1856A8B319A715A500D0D698 /* ImageCropperTests-Info.plist */,
+				1856A8B419A715A500D0D698 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1856A8C319A715F000D0D698 /* SMImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				1856A8C819A7160800D0D698 /* corner.png */,
+				1856A8C919A7160800D0D698 /* sample1.jpg */,
+				1856A8CE19A7163B00D0D698 /* SMImageCropperView.h */,
+				1856A8CF19A7163B00D0D698 /* SMImageCropperView.m */,
+				1856A8D119A7166E00D0D698 /* SMCropViewLayer.h */,
+				1856A8D219A7166E00D0D698 /* SMCropViewLayer.m */,
+			);
+			name = SMImageCropper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1856A88819A715A500D0D698 /* ImageCropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1856A8BB19A715A500D0D698 /* Build configuration list for PBXNativeTarget "ImageCropper" */;
+			buildPhases = (
+				1856A88519A715A500D0D698 /* Sources */,
+				1856A88619A715A500D0D698 /* Frameworks */,
+				1856A88719A715A500D0D698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageCropper;
+			productName = ImageCropper;
+			productReference = 1856A88919A715A500D0D698 /* ImageCropper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1856A8A919A715A500D0D698 /* ImageCropperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1856A8BE19A715A500D0D698 /* Build configuration list for PBXNativeTarget "ImageCropperTests" */;
+			buildPhases = (
+				1856A8A619A715A500D0D698 /* Sources */,
+				1856A8A719A715A500D0D698 /* Frameworks */,
+				1856A8A819A715A500D0D698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1856A8B019A715A500D0D698 /* PBXTargetDependency */,
+			);
+			name = ImageCropperTests;
+			productName = ImageCropperTests;
+			productReference = 1856A8AA19A715A500D0D698 /* ImageCropperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1856A88119A715A500D0D698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SM;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sxmobi;
+				TargetAttributes = {
+					1856A8A919A715A500D0D698 = {
+						TestTargetID = 1856A88819A715A500D0D698;
+					};
+				};
+			};
+			buildConfigurationList = 1856A88419A715A500D0D698 /* Build configuration list for PBXProject "ImageCropper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1856A88019A715A500D0D698;
+			productRefGroup = 1856A88A19A715A500D0D698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1856A88819A715A500D0D698 /* ImageCropper */,
+				1856A8A919A715A500D0D698 /* ImageCropperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1856A88719A715A500D0D698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1856A8A519A715A500D0D698 /* Images.xcassets in Resources */,
+				1856A89719A715A500D0D698 /* InfoPlist.strings in Resources */,
+				1856A8CC19A7160800D0D698 /* corner.png in Resources */,
+				1856A8CD19A7160800D0D698 /* sample1.jpg in Resources */,
+				1856A8A019A715A500D0D698 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1856A8A819A715A500D0D698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1856A8B619A715A500D0D698 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1856A88519A715A500D0D698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1856A8D319A7166E00D0D698 /* SMCropViewLayer.m in Sources */,
+				1856A8D019A7163B00D0D698 /* SMImageCropperView.m in Sources */,
+				1856A89D19A715A500D0D698 /* SMAppDelegate.m in Sources */,
+				1856A8D619A7188000D0D698 /* SMImageCroperViewController.m in Sources */,
+				1856A8A319A715A500D0D698 /* SMViewController.m in Sources */,
+				1856A89919A715A500D0D698 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1856A8A619A715A500D0D698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1856A8B819A715A500D0D698 /* ImageCropperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1856A8B019A715A500D0D698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1856A88819A715A500D0D698 /* ImageCropper */;
+			targetProxy = 1856A8AF19A715A500D0D698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1856A89519A715A500D0D698 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1856A89619A715A500D0D698 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1856A89E19A715A500D0D698 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1856A89F19A715A500D0D698 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1856A8B419A715A500D0D698 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1856A8B519A715A500D0D698 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1856A8B919A715A500D0D698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Huang Jun (C225P9LG8S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Huang Jun (C225P9LG8S)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "5044F9DC-73EF-4C1F-B991-82480C453724";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1856A8BA19A715A500D0D698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Huang Jun (C225P9LG8S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Huang Jun (C225P9LG8S)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE = "5044F9DC-73EF-4C1F-B991-82480C453724";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1856A8BC19A715A500D0D698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageCropper/ImageCropper-Prefix.pch";
+				INFOPLIST_FILE = "ImageCropper/ImageCropper-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huawei.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5044F9DC-73EF-4C1F-B991-82480C453724";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1856A8BD19A715A500D0D698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageCropper/ImageCropper-Prefix.pch";
+				INFOPLIST_FILE = "ImageCropper/ImageCropper-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huawei.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5044F9DC-73EF-4C1F-B991-82480C453724";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1856A8BF19A715A500D0D698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageCropper.app/ImageCropper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageCropper/ImageCropper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImageCropperTests/ImageCropperTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "sxmobi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1856A8C019A715A500D0D698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageCropper.app/ImageCropper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageCropper/ImageCropper-Prefix.pch";
+				INFOPLIST_FILE = "ImageCropperTests/ImageCropperTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "sxmobi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1856A88419A715A500D0D698 /* Build configuration list for PBXProject "ImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1856A8B919A715A500D0D698 /* Debug */,
+				1856A8BA19A715A500D0D698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1856A8BB19A715A500D0D698 /* Build configuration list for PBXNativeTarget "ImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1856A8BC19A715A500D0D698 /* Debug */,
+				1856A8BD19A715A500D0D698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1856A8BE19A715A500D0D698 /* Build configuration list for PBXNativeTarget "ImageCropperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1856A8BF19A715A500D0D698 /* Debug */,
+				1856A8C019A715A500D0D698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1856A88119A715A500D0D698 /* Project object */;
+}
